@@ -28,17 +28,16 @@ const Home = ({ props }) => {
   const handlePushState = item => {
     console.log("item", item);
     const { history } = props;
-    props.history.push({
+    history.push({
       pathname: item.path
     });
   };
   return (
     <React.Fragment>
       {basicComponent.map(item => (
-        <div className="inline-block card-container">
+        <div className="inline-block card-container" key={item.id}>
           <Card
             className={classes.card}
-            key={item.id}
             onClick={() => handlePushState(item)}
           >
             <CardContent>
