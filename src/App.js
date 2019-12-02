@@ -2,14 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./component/home";
-import DropDown from "./component/dropdown";
+import DropDown from "./component/dropdown/dropdown";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">#100DaysOfCode</header>
       <Router>
-        <div className="router-container">
+        <div className="router-container" style={{textAlign: "center"}}>
           <Route exact path={"/"} render={props => <Home props={props} />} />
           <Route
             exact
