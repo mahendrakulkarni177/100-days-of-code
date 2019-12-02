@@ -13,5 +13,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 			      in feture.
 	**Thoughts** : created cards on home page which will redirect respective challenge/example
 	
+**Day 1 : December 02, 2019**
+
+	**Todays Progress** : created generic dropdown component using react hooks.
+	**Thoughts** : one of the most time used component, so I started with dropdown component with hooks.
+	
 	
 
